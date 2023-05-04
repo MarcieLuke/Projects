@@ -86,7 +86,7 @@ SET SoldAsVacant= CASE WHEN SoldAsVacant = 'Y' THEN 'Yes'
 	ELSE SoldAsVacant 
 	END
 
--- Remove Duplicates
+
 
 
 
