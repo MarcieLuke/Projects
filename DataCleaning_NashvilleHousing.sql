@@ -85,8 +85,19 @@ SET SoldAsVacant= CASE WHEN SoldAsVacant = 'Y' THEN 'Yes'
 	When SoldAsVacant = 'N' THEN 'No'
 	ELSE SoldAsVacant 
 	END
+	
+	
+
+-- Delete Unused Columns
 
 
+
+Select *
+From PortfolioProject.dbo.NashvilleHousing
+
+
+ALTER TABLE PortfolioProject.dbo.NashvilleHousing
+DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
 
 
